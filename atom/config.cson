@@ -1,0 +1,188 @@
+"*":
+  "Remote-FTP":
+    autoUploadOnSave: "never"
+    showViewOnStartup: false
+  "activate-power-mode":
+    autoToggle: false
+    excludedFileTypes: {}
+    particles:
+      size: {}
+      spawnCount:
+        max: 35
+        min: 20
+    screenShake:
+      enabled: false
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+    helmDirSwitch: true
+  "atom-autocomplete-php":
+    binPhp: "C:\\xampp\\php\\php.exe"
+  "atom-beautify":
+    general:
+      _analyticsUserId: "" # It's private.
+      analytics: false
+      beautifyEntireFileOnSave: false
+      muteAllErrors: true
+    js: {}
+    php: {}
+  "atom-clock":
+    dateFormat: "ddd h:mm a"
+  "atom-material-ui":
+    colors:
+      paintCursor: true
+    tabs: {}
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+  "autoclose-html":
+    forceInline: [
+      "title"
+      "h1"
+      "h2"
+      "h3"
+      "h4"
+      "h5"
+      "h6"
+      "p"
+    ]
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
+  caniuse: {}
+  core:
+    disabledPackages: [
+      "tool-bar"
+      "tool-bar-main"
+      "project-manager"
+      "travis-ci-status"
+      "atom-beautify"
+      "Remote-FTP"
+      "atom-autocomplete-php"
+      "atom-minify"
+      "autocomplete-json"
+      "linter-sass-lint"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".sass-cache"
+      "_site"
+      "node_modules"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "C:\\Users\\whisk\\Github"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "material-palenight-syntax"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "\"Fira Code\", \"Ubuntu Mono\", \"Source Code Pro\", Consolas"
+    fontSize: 15
+    invisibles:
+      tab: "."
+    lineHeight: 1.56
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    useShadowDOM: false
+  emmet: {}
+  "exception-reporting":
+    userId: "cb7c99bc-aec3-9415-8f1a-c1e92f7c84a1"
+  "file-icons": {}
+  "find-and-replace":
+    scrollToResultOnLiveSearch: true
+  "fuzzy-finder":
+    preserveLastSearch: true
+  "git-plus":
+    gitPath: "C:\\Program Files\\Git\\git-bash.exe"
+  "line-ending-converter":
+    showEolInStatusBar: false
+  linter:
+    errorPanelHeight: 24
+    showErrorPanel: false
+  "linter-jshint":
+    lintInlineJavaScript: true
+    lintJSXFiles: true
+  "linter-write-good": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "one-dark-ui":
+    tabSizing: "Even"
+  "one-light-ui":
+    layoutMode: "Spacious"
+    tabSizing: "Even"
+  pigments:
+    autocompleteSuggestionsFromValue: true
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+  "pristine-ui":
+    layoutMode: "Spacious"
+    tabSizing: "Minimum"
+  qolor:
+    fourBorders: true
+  "screen-recorder":
+    reduceOutput: false
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "status-bar": {}
+  "sync-settings":
+    _analyticsUserId: "" # I can't tell you guys
+    _lastBackupHash: "" # Not relevant
+    analytics: false
+    gistId: "" #nope
+    personalAccessToken: "" # Very critical
+    quietUpdateCheck: true
+  tabs: {}
+  "tree-view":
+    alwaysOpenExisting: true
+    focusOnReveal: false
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  "w3c-validation":
+    hideOnNoErrors: true
+    validateOnSave: false
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1483009564
+  welcome:
+    showOnStartup: false
+".diff.source":
+  editor:
+    tabLength: 2
+".html.ruby.text":
+  editor:
+    tabLength: 2
+".ini.source":
+  editor:
+    tabLength: 2
+".js.rails.source source.jquery.js":
+  editor:
+    tabLength: 2
+".rails.rjs.ruby.source":
+  editor:
+    tabLength: 2
+".rails.ruby.source":
+  editor:
+    tabLength: 2
+".ruby.source.sql":
+  editor:
+    tabLength: 2

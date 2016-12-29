@@ -1,0 +1,73 @@
+/* Styles by Olaolu */
+
+@import "octicon-mixins";
+
+atom-text-editor {
+  -webkit-font-feature-settings: "liga" off, "calt" off;
+  text-rendering: optimizeLegibility;
+}
+
+atom-text-editor::shadow {
+  .string.quoted,
+  .string.regexp {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+  .string.unquoted.js {
+    color: #CDD3DE;
+  }
+}
+
+.theme-atom-material-ui {
+  .overlay,
+  atom-panel.modal {
+    margin-left: -300px;
+    width: 650px;
+  }
+
+  .tab-bar .tab {
+    // max-width: 15rem;
+    text-align: center;
+    &.active {
+      //  min-width: 15rem;
+    }
+  }
+
+  [is='atom-tabs'] {
+    [is='tabs-tab'] .title {
+      &:before {
+        margin-right: .3rem;
+      }
+      & .icon-tools {
+        &:before {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  atom-text-editor {
+    margin: 3px auto;
+  }
+
+  atom-panel-container.footer {
+    [is='status-bar-git'] {
+      .git-status {
+        color: #e3b93c;
+      }
+    }
+  }
+}
+
+// Styles for caniuse Package
+.caniuse-view.select-list {
+  table {
+    td.is-unsupported {
+      background-color: #C44230;
+    }
+    td.is-supported {
+      background-color: #39b54a;
+    }
+    td.is-almost-supported {
+      background-color: #A8BD04;
+    }
+  }
+}
