@@ -1,5 +1,5 @@
 # My dotfiles
 
-An awesome collection of files and configurations I regularly use in development. :fire:
+A bunch of files and configurations I regularly use during development.
 
 Just for sharing sake... :smirk:
