@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'Fira Code', 'Source Code Pro'",
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 20,
+    "editor.wordWrap": true,
+    "editor.selectionHighlight": false,
+    "editor.tabSize": 2,
+    "editor.cursorBlinking": "smooth",
+    "editor.mouseWheelZoom": true,
+    "editor.cursorStyle": "line",
+    "editor.fontLigatures": false,
+    "editor.renderIndentGuides": true,
+    "editor.renderLineHighlight": "all",
+    "files.autoSaveDelay": 100
+}
