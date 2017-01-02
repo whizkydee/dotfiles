@@ -13,11 +13,16 @@
 	},
 	{
 		"name": "advanced-open-file",
-		"version": "0.16.4"
+		"version": "0.16.5"
 	},
 	{
 		"name": "archive-view",
 		"version": "0.62.0"
+	},
+	{
+		"name": "ariake-dark-syntax",
+		"version": "0.0.6",
+		"theme": "syntax"
 	},
 	{
 		"name": "atom-autocomplete-php",
@@ -25,7 +30,7 @@
 	},
 	{
 		"name": "atom-beautify",
-		"version": "0.29.14"
+		"version": "0.29.16"
 	},
 	{
 		"name": "atom-clock",
@@ -169,7 +174,7 @@
 	},
 	{
 		"name": "file-icons",
-		"version": "1.7.25"
+		"version": "2.0.3"
 	},
 	{
 		"name": "find-and-replace",
@@ -380,6 +385,10 @@
 		"version": "0.158.8"
 	},
 	{
+		"name": "markdown-writer",
+		"version": "2.6.2"
+	},
+	{
 		"name": "material-palenight-syntax",
 		"version": "0.2.2",
 		"theme": "syntax"
@@ -481,7 +490,7 @@
 	},
 	{
 		"name": "sync-settings",
-		"version": "0.8.0"
+		"version": "0.8.1"
 	},
 	{
 		"name": "tabs",
@@ -513,7 +522,7 @@
 	},
 	{
 		"name": "wakatime",
-		"version": "6.0.11"
+		"version": "6.0.12"
 	},
 	{
 		"name": "welcome",
@@ -530,5 +539,9 @@
 	{
 		"name": "wrap-guide",
 		"version": "0.38.2"
+	},
+	{
+		"name": "zentabs",
+		"version": "0.8.7"
 	}
 ]
