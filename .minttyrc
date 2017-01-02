@@ -1,0 +1,9 @@
+BoldAsFont=no
+CursorType=block
+Transparency=off
+OpaqueWhenFocused=no
+CursorBlinks=yes
+Font=Ubuntu Mono
+FontHeight=10
+Columns=75
+Rows=17
