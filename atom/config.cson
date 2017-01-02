@@ -116,6 +116,8 @@
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
+  "markdown-writer": {
+		fileExtension: ".markdown, .md"
   minimap:
     plugins:
       pigments: true
@@ -165,6 +167,8 @@
     lastInit: 1483009564
   welcome:
     showOnStartup: false
+  zentabs:
+    neverCloseUnsaved: true
 ".diff.source":
   editor:
     tabLength: 2
