@@ -94,6 +94,7 @@
     showIndentGuide: true
     softWrap: true
     softWrapAtPreferredLineLength: true
+    undoGroupingInterval: 1000
     useShadowDOM: false
   emmet: {}
   "exception-reporting":
