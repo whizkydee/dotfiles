@@ -57,13 +57,6 @@
 [merge]
 	tool = opendiff
 
-# rewrites of repo paths
-[url "git@github.com:"]
-	insteadOf = "https://github.com/"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-	pushInsteadOf = "https://github.com/"
-
 [url "git://github.com/"]
 	insteadOf = "github:"
 
