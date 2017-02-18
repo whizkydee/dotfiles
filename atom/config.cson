@@ -20,7 +20,7 @@
     binPhp: "C:\\xampp\\php\\php.exe"
   "atom-beautify":
     general:
-      _analyticsUserId: "" # It's private.
+      _analyticsUserId: "" # It's private
       analytics: false
       beautifyEntireFileOnSave: false
       muteAllErrors: true
@@ -30,9 +30,12 @@
     dateFormat: "ddd h:mm a"
   "atom-material-ui":
     colors:
+      abaseColor: "#7e57c2"
       paintCursor: true
+      predefinedColor: "Purple"
     tabs: {}
     treeView:
+      blendTabs: true
       compactList: true
     ui:
       panelContrast: true
@@ -77,6 +80,7 @@
     ]
     openEmptyEditorOnStart: false
     projectHome: "C:\\Users\\whisk\\Github"
+    reopenProjectMenuCount: 20
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
@@ -98,7 +102,7 @@
     useShadowDOM: false
   emmet: {}
   "exception-reporting":
-    userId: "cb7c99bc-aec3-9415-8f1a-c1e92f7c84a1"
+    userId: "" # It's private
   "file-icons": {}
   "find-and-replace":
     scrollToResultOnLiveSearch: true
@@ -110,15 +114,14 @@
     showEolInStatusBar: false
   linter:
     errorPanelHeight: 24
-    showErrorPanel: false
   "linter-jshint":
     lintInlineJavaScript: true
     lintJSXFiles: true
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
-  "markdown-writer": {
-		fileExtension: ".markdown, .md"
+  "markdown-writer":
+    fileExtension: ".markdown, .md"
   minimap:
     plugins:
       pigments: true
@@ -147,11 +150,11 @@
     syncHorizontalScroll: true
   "status-bar": {}
   "sync-settings":
-    _analyticsUserId: "" # I can't tell you guys
-    _lastBackupHash: "" # Not relevant
+    _analyticsUserId: "" # It's private
+    _lastBackupHash: "" # It's private
     analytics: false
-    gistId: "" #nope
-    personalAccessToken: "" # Very critical
+    gistId: "" # It's private
+    personalAccessToken: "" # It's private
     quietUpdateCheck: true
   tabs: {}
   "tree-view":
@@ -165,7 +168,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1483009564
+    lastInit: 1487446488
   welcome:
     showOnStartup: false
   zentabs:

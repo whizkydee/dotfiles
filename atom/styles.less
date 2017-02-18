@@ -1,13 +1,15 @@
 /* Styles by Olaolu */
 
-@import "octicon-mixins";
+atom-panel.tool-panel {
+  font-size: 0.88em;
+}
 
 atom-text-editor {
   -webkit-font-feature-settings: "liga" off, "calt" off;
   text-rendering: optimizeLegibility;
-}
+  font-weight: normal;
+  line-height: 1.7;
 
-atom-text-editor::shadow {
   .string.quoted,
   .string.regexp {
     -webkit-font-feature-settings: "liga" off, "calt" off;
@@ -15,6 +17,29 @@ atom-text-editor::shadow {
   .string.unquoted.js {
     color: #CDD3DE;
   }
+}
+
+// Font Config
+.syntax--operator,
+.syntax--type.syntax--function.syntax--arrow,
+.syntax--punctuation.syntax--comment {
+  font-family: "Fira Code";
+}
+.syntax--curly,
+.syntax--entity.syntax--other.syntax--attribute-name,
+.syntax--source.syntax--js.syntax--jsx > .syntax--keyword.syntax--control.syntax--flow.syntax--js,
+.syntax--storage, .syntax--type .syntax--function,
+.syntax--entity.syntax--other.syntax--attribute-name,
+.syntax--type.syntax--function,
+.syntax--storage.syntax--type.syntax--class,
+.syntax--type.syntax--var,
+.syntax--meta.syntax--parameters,
+.syntax--keyword.syntax--control,
+.syntax--modifier,
+.syntax--comment {
+  font-size: 1em;
+  font-family: "Operator Mono Light";
+  font-style: italic;
 }
 
 .theme-atom-material-ui {
