@@ -20,26 +20,36 @@ atom-text-editor {
 }
 
 // Font Config
-.syntax--operator,
-.syntax--type.syntax--function.syntax--arrow,
-.syntax--punctuation.syntax--comment {
-  font-family: "Fira Code";
+.linter-cursor-line {
+  display: none;
 }
+.syntax--punctuation,
+.syntax--brace,
 .syntax--curly,
+.syntax--round {
+  font-family: "Operator Mono Light";
+  vertical-align: inherit;
+  font-size: 1.089em;
+  line-height: 20px;
+}
+.syntax--doctype,
 .syntax--entity.syntax--other.syntax--attribute-name,
 .syntax--source.syntax--js.syntax--jsx > .syntax--keyword.syntax--control.syntax--flow.syntax--js,
-.syntax--storage, .syntax--type .syntax--function,
-.syntax--entity.syntax--other.syntax--attribute-name,
+.syntax--storage,
+.syntax--type .syntax--function,
 .syntax--type.syntax--function,
 .syntax--storage.syntax--type.syntax--class,
 .syntax--type.syntax--var,
-.syntax--meta.syntax--parameters,
+.syntax--meta.syntax--parameter,
+.syntax--assignment.syntax--coffee,
 .syntax--keyword.syntax--control,
 .syntax--modifier,
 .syntax--comment {
-  font-size: 1em;
   font-family: "Operator Mono Light";
+  vertical-align: inherit;
   font-style: italic;
+  font-size: 1.089em;
+  line-height: 10px;
 }
 
 .theme-atom-material-ui {
