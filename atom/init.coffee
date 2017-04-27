@@ -3,6 +3,7 @@ if 'win32' == process.platform
   # if atom.config.get 'core.fontFamily' === 'Fira Code'
   # Set font size based for my Windows machines to `16`
   # atom.config.set 'editor.fontSize', '16'
+
   # Set Project home for my Windows machines
   if 'whisk' == process.env.USERNAME
     atom.config.set 'core.projectHome', 'C:\\Users\\whisk\\GitHub'
