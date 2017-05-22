@@ -1,5 +1,8 @@
-# My dotfiles
+# Olaolu's dotfiles
 
-A bunch of files and configurations I regularly use during development.
+A bunch of files and configurations I use regularly during development :fire:.
 
 Just for sharing sake... :smirk:
+
+## License
+Licensed under the MIT
