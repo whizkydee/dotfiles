@@ -1,15 +1,24 @@
 {
-    "editor.fontFamily": "'Fira Code', 'Source Code Pro'",
+    "editor.fontFamily": "'Operator Mono Light', 'Source Code Pro'",
+    "editor.fontSize": 15,
     "editor.fontWeight": "400",
     "editor.lineHeight": 20,
-    "editor.wordWrap": true,
+    "editor.wordWrap": "on",
     "editor.selectionHighlight": false,
     "editor.tabSize": 2,
     "editor.cursorBlinking": "smooth",
     "editor.mouseWheelZoom": true,
     "editor.cursorStyle": "line",
     "editor.fontLigatures": false,
+    "editor.renderWhitespace": true,
     "editor.renderIndentGuides": true,
     "editor.renderLineHighlight": "all",
-    "files.autoSaveDelay": 100
+    "files.autoSaveDelay": 100,
+    "workbench.colorTheme": "Dracula",
+    "sync.gist": "",
+    "sync.lastUpload": "",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false
 }
