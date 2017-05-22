@@ -20,7 +20,7 @@
     binPhp: "C:\\xampp\\php\\php.exe"
   "atom-beautify":
     general:
-      _analyticsUserId: "YOUR_OWN"
+      _analyticsUserId: "PLACE_YOURS_HERE"
       analytics: false
       beautifyEntireFileOnSave: false
       muteAllErrors: true
@@ -31,6 +31,7 @@
   "atom-material-ui":
     colors:
       abaseColor: "#7e57c2"
+      accentColor: "#ffffff"
       paintCursor: true
       predefinedColor: "Purple"
     tabs: {}
@@ -38,7 +39,7 @@
       blendTabs: true
       compactList: true
     ui:
-      panelContrast: true
+      panelShadows: true
   "autoclose-html":
     forceInline: [
       "title"
@@ -118,7 +119,7 @@
     useShadowDOM: false
   emmet: {}
   "exception-reporting":
-    userId: "YOUR_OWN"
+    userId: "PLACE_YOURS_HERE"
   "file-icons":
     colourChangedOnly: false
   "find-and-replace":
@@ -135,7 +136,8 @@
   "linter-jshint":
     lintInlineJavaScript: true
     lintJSXFiles: true
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 81
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
@@ -145,17 +147,17 @@
     plugins:
       pigments: true
       pigmentsDecorationsZIndex: 0
-  "one-dark-ui": {}
+  "one-dark-ui":
+    hideDockButtons: true
+    tabSizing: "Minimum"
   "one-light-ui":
-    layoutMode: "Spacious"
-    tabSizing: "Even"
+    hideDockButtons: true
   pigments:
     autocompleteSuggestionsFromValue: true
     extendAutocompleteToColorValue: true
     extendAutocompleteToVariables: true
   "pristine-ui":
     layoutMode: "Spacious"
-    tabSizing: "Minimum"
   qolor:
     fourBorders: true
   "screen-recorder":
@@ -169,11 +171,11 @@
     syncHorizontalScroll: true
   "status-bar": {}
   "sync-settings":
-    _analyticsUserId: "YOUR_OWN"
-    _lastBackupHash: "YOUR_OWN"
+    _analyticsUserId: "PLACE_YOURS_HERE"
+    _lastBackupHash: "PLACE_YOURS_HERE"
     analytics: false
-    gistId: "YOUR_OWN"
-    personalAccessToken: "YOUR_OWN"
+    gistId: "PLACE_YOURS_HERE"
+    personalAccessToken: "PLACE_YOURS_HERE"
     quietUpdateCheck: true
   tabs: {}
   "tree-view":
