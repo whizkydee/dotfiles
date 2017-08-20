@@ -4,12 +4,13 @@
     showViewOnStartup: false
   "activate-power-mode":
     autoToggle: false
-    excludedFileTypes: {}
     particles:
-      size: {}
       spawnCount:
         max: 35
         min: 20
+    plugins:
+      playAudio: true
+      screenShake: true
     screenShake:
       enabled: false
   "advanced-open-file":
@@ -24,20 +25,19 @@
       analytics: false
       beautifyEntireFileOnSave: false
       muteAllErrors: true
-    js: {}
-    php: {}
   "atom-clock":
     dateFormat: "ddd h:mm a"
   "atom-material-ui":
     colors:
       abaseColor: "#7e57c2"
-      accentColor: "#ffffff"
       paintCursor: true
       predefinedColor: "Purple"
-    tabs: {}
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
     treeView:
       blendTabs: true
-      compactList: true
+      compactList: false
     ui:
       panelShadows: true
   "autoclose-html":
@@ -53,37 +53,24 @@
     ]
   "autocomplete-emojis":
     enableUnicodeEmojis: false
-  "autocomplete-plus": {}
   autosave:
     enabled: true
-  caniuse: {}
   core:
     autoHideMenuBar: true
-    customFileTypes:
-      "source.ini": [
-        ".buckconfig"
-        ".hgrc"
-        ".flowconfig"
-      ]
-      "source.json": [
-        "BUCK.autodeps"
-      ]
-      "source.python": [
-        "BUCK"
-      ]
     disabledPackages: [
-      "tool-bar"
       "tool-bar-main"
       "project-manager"
-      "travis-ci-status"
       "atom-beautify"
       "Remote-FTP"
       "atom-autocomplete-php"
-      "atom-minify"
       "autocomplete-json"
-      "linter-sass-lint"
       "language-babel"
-      "merge-conflicts"
+      "advanced-open-file"
+      "atom-typescript"
+      "language-javascript-jsx"
+      "language-lua"
+      "language-swift"
+      "wordpress-api"
     ]
     ignoredNames: [
       ".git"
@@ -97,7 +84,7 @@
       "node_modules"
     ]
     openEmptyEditorOnStart: false
-    projectHome: "C:\\Users\\whisk\\GitHub"
+    projectHome: "C:\\Users\\Olaoluwa\\GitHub"
     reopenProjectMenuCount: 20
     telemetryConsent: "limited"
     themes: [
@@ -107,6 +94,7 @@
   editor:
     backUpBeforeSaving: true
     fontFamily: "\"Fira Code\", \"Ubuntu Mono\", \"Source Code Pro\", Consolas"
+    fontSize: 15
     invisibles:
       tab: "."
     lineHeight: 1.56
@@ -115,9 +103,9 @@
     showIndentGuide: true
     softWrap: true
     softWrapAtPreferredLineLength: true
+    tabType: "soft"
     undoGroupingInterval: 100
     useShadowDOM: false
-  emmet: {}
   "exception-reporting":
     userId: "PLACE_YOURS_HERE"
   "file-icons":
@@ -132,13 +120,11 @@
     autoIndentJSX: true
   "line-ending-converter":
     showEolInStatusBar: false
-  linter: {}
   "linter-jshint":
     lintInlineJavaScript: true
     lintJSXFiles: true
   "linter-ui-default":
     panelHeight: 81
-  "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer":
@@ -157,7 +143,7 @@
     extendAutocompleteToColorValue: true
     extendAutocompleteToVariables: true
   "pristine-ui":
-    layoutMode: "Spacious"
+    tabSizing: "Minimum"
   qolor:
     fourBorders: true
   "screen-recorder":
@@ -169,15 +155,12 @@
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
     syncHorizontalScroll: true
-  "status-bar": {}
   "sync-settings":
-    _analyticsUserId: "PLACE_YOURS_HERE"
     _lastBackupHash: "PLACE_YOURS_HERE"
     analytics: false
     gistId: "PLACE_YOURS_HERE"
     personalAccessToken: "PLACE_YOURS_HERE"
     quietUpdateCheck: true
-  tabs: {}
   "tree-view":
     alwaysOpenExisting: true
     focusOnReveal: false
@@ -187,31 +170,10 @@
     hideOnNoErrors: true
     validateOnSave: false
   wakatime:
-    apikey: "Saved in your ~/.wakatime.cfg file"
+    apikey: "Enter your api key..."
   "wakatime-hidden":
     lastInit: 1493209717
   welcome:
     showOnStartup: false
   zentabs:
     neverCloseUnsaved: true
-".diff.source":
-  editor:
-    tabLength: 2
-".html.ruby.text":
-  editor:
-    tabLength: 2
-".ini.source":
-  editor:
-    tabLength: 2
-".js.rails.source source.jquery.js":
-  editor:
-    tabLength: 2
-".rails.rjs.ruby.source":
-  editor:
-    tabLength: 2
-".rails.ruby.source":
-  editor:
-    tabLength: 2
-".ruby.source.sql":
-  editor:
-    tabLength: 2
