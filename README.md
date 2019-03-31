@@ -1,8 +1,9 @@
 # Olaolu's dotfiles
 
-A bunch of files and configurations I use regularly during development :fire:.
+:zap:A bunch of files and configurations I use regularly during development
 
-Just for sharing sake... :smirk:
+Just for sharing sake.
 
 ## License
-Licensed under the MIT
+
+Licensed under the [MIT](LICENSE.md)
