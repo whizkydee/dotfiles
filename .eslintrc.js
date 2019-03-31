@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   root: true,
   extends: ['eslint:recommended'],
   env: { es6: true, node: true, browser: true },
@@ -15,6 +15,3 @@ const config = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   },
 }
-
-module.exports = config
-export default config
