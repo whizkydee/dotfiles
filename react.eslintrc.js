@@ -2,7 +2,7 @@ const config = require('./.eslintrc.js')
 
 module.exports = {
   root: true,
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'prettier', 'react-hooks'],
   env: {
     ...config.env,
     commonjs: true,
@@ -14,5 +14,9 @@ module.exports = {
     ecmaFeatures: { jsx: true },
   },
 
-  rules: { ...config.rules },
+  rules: {
+    ...config.rules,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+  },
 }
