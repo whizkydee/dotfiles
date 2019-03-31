@@ -38,6 +38,7 @@
 	reup = rebase-update # depot_tools specific
 
 [core]
+  editor = "nano"
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 	fileMode = false
