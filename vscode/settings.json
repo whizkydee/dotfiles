@@ -9,6 +9,7 @@
   "editor.fontSize": 15,
   "editor.lineHeight": 40,
   "editor.wordWrap": "on",
+  "workbench.tree.renderIndentGuides": "none",
   "editor.wrappingIndent": "same",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
@@ -78,7 +79,7 @@
   "terminal.integrated.rendererType": "dom",
   "editor.detectIndentation": false,
   "breadcrumbs.enabled": true,
-  "workbench.colorTheme": "Palenight Italic",
+  "workbench.colorTheme": "Palenight Theme",
   "extensions.ignoreRecommendations": true,
   "extensions.showRecommendationsOnlyOnDemand": true,
   "vetur.format.defaultFormatter.html": "prettier",
@@ -89,5 +90,12 @@
   "git.enableSmartCommit": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "[Palenight Theme]": {
+      "titleBar.activeBackground": "#292d3e",
+      "titleBar.activeForeground": "#eeefff",
+      "titleBar.border": "#30364c"
+    }
   }
 }
