@@ -6,7 +6,7 @@
     "Red Component" : 0,
     "Blue Component" : 0
   },
-  "Rows" : 22,
+  "Rows" : 20,
   "Ansi 11 Color" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",
@@ -64,7 +64,7 @@
   "Status Bar Layout" : {
     "components" : [
       {
-        "class" : "iTermStatusBarBatteryComponent",
+        "class" : "iTermStatusBarNetworkUtilizationComponent",
         "configuration" : {
           "knobs" : {
             "base: priority" : 5,
@@ -74,8 +74,7 @@
               "Blue Component" : 0.63,
               "Alpha Component" : 1,
               "Green Component" : 0.63
-            },
-            "base: compression resistance" : 1
+            }
           },
           "layout advanced configuration dictionary value" : {
             "font" : ".AppleSystemUIFont 12",
@@ -91,11 +90,11 @@
             "base: priority" : 5,
             "base: compression resistance" : 1,
             "shared text color" : {
-              "Red Component" : 0.84600001573562622,
+              "Red Component" : 0.76500000000000001,
               "Color Space" : "sRGB",
-              "Blue Component" : 0.62999999523162842,
+              "Blue Component" : 0.63,
               "Alpha Component" : 1,
-              "Green Component" : 0.89999997615814209
+              "Green Component" : 0.90000000000000002
             },
             "minwidth" : 0,
             "maxwidth" : 1.7976931348623157e+308
@@ -110,31 +109,18 @@
         "class" : "iTermStatusBarGitComponent",
         "configuration" : {
           "knobs" : {
+            "maxwidth" : 1.7976931348623157e+308,
             "iTermStatusBarGitComponentPollingIntervalKey" : 2,
             "base: priority" : 5,
-            "base: compression resistance" : 1,
-            "minwidth" : 0,
-            "maxwidth" : 1.7976931348623157e+308
-          },
-          "layout advanced configuration dictionary value" : {
-            "font" : ".AppleSystemUIFont 12",
-            "algorithm" : 0
-          }
-        }
-      },
-      {
-        "class" : "iTermStatusBarMemoryUtilizationComponent",
-        "configuration" : {
-          "knobs" : {
-            "base: priority" : 5,
             "shared text color" : {
-              "Red Component" : 0.8460000000000002,
+              "Red Component" : 0.63,
               "Color Space" : "sRGB",
               "Blue Component" : 0.90000000000000002,
               "Alpha Component" : 1,
-              "Green Component" : 0.63
+              "Green Component" : 0.90000000000000002
             },
-            "base: compression resistance" : 1
+            "base: compression resistance" : 1,
+            "minwidth" : 0
           },
           "layout advanced configuration dictionary value" : {
             "font" : ".AppleSystemUIFont 12",
@@ -147,7 +133,14 @@
         "configuration" : {
           "knobs" : {
             "base: priority" : 5,
-            "base: compression resistance" : 1
+            "base: compression resistance" : 1,
+            "shared text color" : {
+              "Red Component" : 0.76500000000000001,
+              "Color Space" : "sRGB",
+              "Blue Component" : 0.90000000000000002,
+              "Alpha Component" : 1,
+              "Green Component" : 0.63
+            }
           },
           "layout advanced configuration dictionary value" : {
             "font" : ".AppleSystemUIFont 12",
@@ -429,8 +422,8 @@
   },
   "AWDS Pane Directory" : "",
   "Blur" : false,
-  "Vertical Spacing" : 1.1100000000000001,
-  "Normal Font" : "OperatorMono-Book 13",
+  "Vertical Spacing" : 1.2,
+  "Normal Font" : "OperatorMono-Book 12",
   "Ansi 7 Color" : {
     "Red Component" : 0.7803921568627451,
     "Color Space" : "sRGB",
@@ -443,7 +436,7 @@
   "AWDS Pane Option" : "Recycle",
   "Command" : "\/bin\/zsh",
   "Terminal Type" : "xterm-256color",
-  "Horizontal Spacing" : 1.01,
+  "Horizontal Spacing" : 0.97999999999999998,
   "Option Key Sends" : 0,
   "Blink Allowed" : true,
   "Ansi 15 Color" : {
@@ -480,7 +473,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.5607843137254902
   },
-  "Columns" : 74,
+  "Columns" : 85,
   "Visual Bell" : true,
   "ASCII Ligatures" : false,
   "Custom Directory" : "Advanced",
