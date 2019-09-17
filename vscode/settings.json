@@ -58,6 +58,7 @@
   "editor.emptySelectionClipboard": false,
   "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true,
+  "eslint.autoFixOnSave": true,
   "editor.formatOnSave": true,
   "explorer.confirmDelete": false,
   "markdown.preview.breaks": true,
@@ -84,7 +85,11 @@
   "extensions.showRecommendationsOnlyOnDemand": true,
   "vetur.format.defaultFormatter.html": "prettier",
   "window.zoomLevel": -1.4,
-  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
   "editor.fontWeight": "300",
   "workbench.editor.showTabs": true,
   "git.enableSmartCommit": true,
