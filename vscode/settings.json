@@ -84,7 +84,7 @@
   "extensions.ignoreRecommendations": true,
   "extensions.showRecommendationsOnlyOnDemand": true,
   "vetur.format.defaultFormatter.html": "prettier",
-  "window.zoomLevel": -1.4,
+  "window.zoomLevel": -0.8,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
