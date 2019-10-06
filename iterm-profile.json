@@ -87,8 +87,9 @@
         "configuration" : {
           "knobs" : {
             "path" : "path",
-            "base: priority" : 5,
+            "minwidth" : 0,
             "base: compression resistance" : 1,
+            "base: priority" : 5,
             "shared text color" : {
               "Red Component" : 0.76500000000000001,
               "Color Space" : "sRGB",
@@ -96,7 +97,6 @@
               "Alpha Component" : 1,
               "Green Component" : 0.90000000000000002
             },
-            "minwidth" : 0,
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
@@ -112,6 +112,7 @@
             "maxwidth" : 1.7976931348623157e+308,
             "iTermStatusBarGitComponentPollingIntervalKey" : 2,
             "base: priority" : 5,
+            "minwidth" : 0,
             "shared text color" : {
               "Red Component" : 0.63,
               "Color Space" : "sRGB",
@@ -119,8 +120,7 @@
               "Alpha Component" : 1,
               "Green Component" : 0.90000000000000002
             },
-            "base: compression resistance" : 1,
-            "minwidth" : 0
+            "base: compression resistance" : 1
           },
           "layout advanced configuration dictionary value" : {
             "font" : ".AppleSystemUIFont 12",
