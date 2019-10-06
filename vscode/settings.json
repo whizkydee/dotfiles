@@ -1,7 +1,6 @@
 {
   "window.title": "${dirty}${activeEditorMedium}${separator}${folderName}${separator}${appName}",
   "window.openFoldersInNewWindow": "on",
-  "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.visible": true,
   "workbench.statusBar.visible": true,
@@ -65,6 +64,24 @@
   "markdown-preview-enhanced.enableExtendedTableSyntax": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ],
   "colorize.languages": [
     "css",
     "sass",
@@ -102,5 +119,6 @@
       "titleBar.activeForeground": "#eeefff",
       "titleBar.border": "#30364c"
     }
-  }
+  },
+  "workbench.iconTheme": "file-icons"
 }
