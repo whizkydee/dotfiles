@@ -71,7 +71,8 @@ plugins=(
   yarn
   brew
   dotenv
-  rake
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -99,14 +100,18 @@ fi
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+
+# Aliases
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
+alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 alias code="/Applications/Visual\\ Studio\\ Code.app/Contents/MacOS/Electron"
+
 
 export NVM_DIR="/Users/olaolu/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
-
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
