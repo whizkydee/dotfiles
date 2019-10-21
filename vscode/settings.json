@@ -4,7 +4,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.visible": true,
   "workbench.statusBar.visible": true,
-  "editor.fontFamily": "Operator Mono, Fira Code, Menlo, Ubuntu Mono",
+  "editor.fontFamily": "Cascadia Code, Operator Mono, Fira Code, Menlo, Ubuntu Mono",
   "editor.fontSize": 15,
   "editor.lineHeight": 40,
   "editor.wordWrap": "on",
