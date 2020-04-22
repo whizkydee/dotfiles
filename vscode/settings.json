@@ -1,5 +1,6 @@
 {
   "window.title": "${dirty}${activeEditorMedium}${separator}${folderName}${separator}${appName}",
+  "window.zoomLevel": -0.8,
   "window.openFoldersInNewWindow": "on",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.visible": true,
@@ -20,7 +21,7 @@
   "editor.selectionHighlight": false,
   "editor.colorDecorators": false,
   "editor.matchBrackets": false,
-  "editor.autoIndent": true,
+  "editor.autoIndent": "full",
   "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
   "editor.multiCursorModifier": "ctrlCmd",
@@ -46,6 +47,10 @@
   "prettier.singleQuote": true,
   "prettier.semi": false,
   "prettier.trailingComma": "es5",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
+  },
   "workbench.commandPalette.preserveInput": true,
   "files.insertFinalNewline": true,
   "git.defaultCloneDirectory": "/home/olaoluwa/Projects",
@@ -55,9 +60,6 @@
   "files.trimFinalNewlines": true,
   "editor.insertSpaces": true,
   "editor.emptySelectionClipboard": false,
-  "prettier.eslintIntegration": true,
-  "prettier.stylelintIntegration": true,
-  "eslint.autoFixOnSave": true,
   "editor.formatOnSave": true,
   "explorer.confirmDelete": false,
   "markdown.preview.breaks": true,
@@ -101,7 +103,6 @@
   "extensions.ignoreRecommendations": true,
   "extensions.showRecommendationsOnlyOnDemand": true,
   "vetur.format.defaultFormatter.html": "prettier",
-  "window.zoomLevel": -0.8,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -120,5 +121,8 @@
       "titleBar.border": "#30364c"
     }
   },
-  "workbench.iconTheme": "file-icons"
+  "workbench.iconTheme": "file-icons",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

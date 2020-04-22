@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/olaolu/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,10 +105,14 @@ fi
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
+alias rm_xcode= 'sudo rm -rf $(xcode-select --print-path)'
 alias code="/Applications/Visual\\ Studio\\ Code.app/Contents/MacOS/Electron"
+alias chrome="/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome"
+alias reinstall_xcode='rm_xcode; sudo rm -rf /Library/Developer/CommandLineTools; xcode-select --install'
+# alias chrome-no-ext="/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome -disable-extensions"
 
 
-export NVM_DIR="/Users/olaolu/.nvm"
+export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
