@@ -99,16 +99,18 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+
+SHOPIFY_EMAIL="olaolu.olawuyi@shopify.com"
 
 # Aliases
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 alias rm_xcode= 'sudo rm -rf $(xcode-select --print-path)'
+alias git_shopify='git config user.email ${SHOPIFY_EMAIL}'
 alias code="/Applications/Visual\\ Studio\\ Code.app/Contents/MacOS/Electron"
 alias chrome="/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome"
-alias reinstall_xcode='rm_xcode; sudo rm -rf /Library/Developer/CommandLineTools; xcode-select --install'
+alias reinstall_xcode='rm_xcode; xcode-select --install'
 # alias chrome-no-ext="/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome -disable-extensions"
 
 
@@ -116,10 +118,13 @@ export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
 eval $(thefuck --alias)
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
+export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
