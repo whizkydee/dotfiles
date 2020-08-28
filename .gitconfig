@@ -42,6 +42,7 @@
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 	fileMode = false
+	commitGraph = true
 
 [pager]
 	# insanely beautiful diffs ==> npm install -g diff-so-fancy
@@ -108,12 +109,21 @@
 
 [diff]
 	compactionHeuristic = true
-
-[credential]
-	helper = store
-
+	algorithm = patience
 [credential "https://github.com"]
 	username = whizkydee
 
 [credential "https://gitlab.com"]
 	username = mrolaolu
+[gc]
+	writeCommitGraph = true
+[protocol]
+	version = 2
+[url "https://github.com/Shopify/"]
+	insteadOf = git@github.com:Shopify/
+	insteadOf = git@github.com:shopify/
+	insteadOf = ssh://git@github.com/Shopify/
+	insteadOf = ssh://git@github.com/shopify/
+[credential]
+	helper =
+	helper = store --file /opt/dev/var/private/git_credential_store
