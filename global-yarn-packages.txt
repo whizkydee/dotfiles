@@ -1,13 +1,21 @@
-yarn global v1.13.0
+yarn global v1.22.10
 info "@gridsome/cli@0.3.3" has binaries:
    - gridsome
 info "@vue/cli-service@4.0.4" has binaries:
    - vue-cli-service
 info "flow-typed@2.5.2" has binaries:
    - flow-typed
+info "nodemon@2.0.4" has binaries:
+   - nodemon
 info "now@15.8.7" has binaries:
    - now
 info "parcel-bundler@1.12.4" has binaries:
    - parcel
+info "rollup@2.38.5" has binaries:
+   - rollup
 info "tsd@0.11.0" has binaries:
    - tsd
+info "typescript@4.1.3" has binaries:
+   - tsc
+   - tsserver
+Done in 24.36s.

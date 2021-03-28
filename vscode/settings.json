@@ -1,7 +1,6 @@
 {
   "window.title": "${dirty}${activeEditorMedium}${separator}${folderName}${separator}${appName}",
   "window.openFoldersInNewWindow": "on",
-  "window.zoomLevel": -1,
   "workbench.activityBar.visible": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
@@ -23,7 +22,7 @@
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.lineHeight": 40,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.occurrencesHighlight": false,
@@ -42,6 +41,9 @@
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 2000,
   "atomKeymap.promptV3Features": true,
+  "files.associations": {
+    "*.md": "mdx"
+  },
   "subtleBrackets.style": {
     "borderWidth": "2px",
     "borderStyle": "none none solid none",
@@ -101,7 +103,6 @@
   "editor.detectIndentation": false,
   "breadcrumbs.enabled": true,
   "extensions.ignoreRecommendations": true,
-  "extensions.showRecommendationsOnlyOnDemand": true,
   "vetur.format.defaultFormatter.html": "prettier",
   "eslint.validate": [
     "vue",
@@ -128,5 +129,22 @@
   "eslint.packageManager": "yarn",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "debug.javascript.codelens.npmScripts": "never",
-  "workbench.colorTheme": "Palenight (Mild Contrast)"
+  "diffEditor.ignoreTrimWhitespace": false,
+  "codespaces.accountProvider": "Microsoft",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "window.zoomLevel": -1,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)"
 }

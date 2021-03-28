@@ -3,10 +3,5 @@
     "key": "shift+cmd+t",
     "command": "-extension.toggleHEX",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+m",
-    "command": "workbench.action.terminal.clear",
-    "when": "terminalFocus"
   }
 ]

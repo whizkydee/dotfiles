@@ -22,7 +22,6 @@
     "Alpha Component" : 1,
     "Green Component" : 0.75294117647058822
   },
-  "Use Custom Window Title" : true,
   "Right Option Key Sends" : 0,
   "Show Status Bar" : true,
   "Character Encoding" : 4,
@@ -174,7 +173,6 @@
     "Red Component" : 1,
     "Blue Component" : 1
   },
-  "Custom Window Title" : "",
   "Unlimited Scrollback" : false,
   "Custom Command" : "Yes",
   "AWDS Tab Option" : "Recycle",
