@@ -66,16 +66,13 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(
   git
   npm
-  npx
-  osx
+  macos
   yarn
   brew
   dotenv
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
-
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -122,9 +119,8 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
-eval $(thefuck --alias)
 
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
-export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
+
+eval "$(thefuck --alias fuck)"
